@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 16px;
+  }
+  #todo {
+    height: 500px;
+  }
+  header {
+    background-color: #D4B499;
+    text-align: center;
+  }
+  header a {
+    animation-duration: 1.5s;
+    animation-name: colores;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  header a:hover {
+    color: #889EAF;
+    text-decoration: none;
+  }
+  section {
+    background-color: #889EAF;
+    font-size: 1.2rem;
+  }
+  #lateral {
+    background-color: #506D84;
+    text-align: center;
+    padding: 50px 100px;
+  }
+  footer {
+    color: whitesmoke;
+    background-color: #506D84;
+    padding: 20px 0;
+  }
+  .contenedor {
+    width: 99%;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+    display: none;
+  }
+  #resultado {
+    transition: all 0.4 ease-in-out;
+  }
+  .res {
+    color: whitesmoke;
+    width: 99%;
+    line-height: 25px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+.VistaPrevia{
+    width: 950px;
+    height: 630px;
+}
+#Vista_Previa_Img{
+    float: initial;
+}
+#nombre_envia_caja{
+    position: absolute;
+    top: 1000px;
+    left: 170px;
+
+}
+#nombre_manda_caja{
+  position: absolute;
+  top: 1400px;
+  left: 170px;
+}
+#saludo_texto_caja{
+    position: absolute;
+    top: 1100px;
+    left: 170px;
+}
+#cuerpo_texto_caja{
+    position: absolute;
+    top: 1200px;
+    left: 170px;
+}
+#Vista_Previa_Img1{
+    float: initial;
+}
+#nombre_envia_caja1{
+    position: absolute;
+    top: 168px;
+    left: 380px;
+}
+#saludo_texto_caja1{
+    position: absolute;
+    top: 238px;
+    left: 380px;
+}
+#cuerpo_texto_caja1{
+    position: absolute;
+    top: 318px;
+    left: 380px;
+}
+#Tar_Fel_Caja{
+    margin-left: 15%;
+}
